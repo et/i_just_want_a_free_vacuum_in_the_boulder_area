@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "webmock", '~> 1.14.0'
 
   spec.add_dependency 'craigslist'
+  spec.add_dependency 'whenever'
 end
