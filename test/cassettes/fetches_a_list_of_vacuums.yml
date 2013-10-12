@@ -23,22 +23,22 @@ http_interactions:
       Cache-Control:
       - max-age=900, public
       Last-Modified:
-      - Sat, 12 Oct 2013 21:01:01 GMT
+      - Sat, 12 Oct 2013 21:19:48 GMT
       Date:
-      - Sat, 12 Oct 2013 21:01:01 GMT
+      - Sat, 12 Oct 2013 21:19:48 GMT
       Vary:
       - Accept-Encoding
       Content-Length:
-      - '6030'
+      - '5991'
       Content-Type:
       - text/html; charset=utf-8
       Set-Cookie:
-      - cl_b=TAlGZoEz4xGGNLVR9GyocAKu8jY;path=/;domain=.craigslist.org;expires=Fri,
+      - cl_b=6hdCBoQz4xGYpzuavoNQkw1oIT0;path=/;domain=.craigslist.org;expires=Fri,
         01-Jan-2038 00:00:00 GMT
       Server:
       - Apache
       Expires:
-      - Sat, 12 Oct 2013 21:16:01 GMT
+      - Sat, 12 Oct 2013 21:34:48 GMT
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html class=\"nojs\"><head>\n\t<title>boulder free
@@ -226,15 +226,13 @@ http_interactions:
         Alert</a> </span> <span class=\"l2\">   <span class=\"pnr\"> <small> (Broomfield)</small>
         <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  </span>
         </p><h4 class=\"ban\">Few LOCAL results found. Here are some from NEARBY areas...</h4>
-        <p class=\"row\" data-latitude=\"39.9131567391382\" data-longitude=\"-105.052613872498\"
-        data-pid=\"4125713189\"> <a href=\"http://denver.craigslist.org/zip/4125713189.html\"
-        class=\"i\" data-id=\"0:00y0y_gfaWE8f5GCm\"></a> <span class=\"pl\"> <span
-        class=\"star\"></span> <span class=\"date\">Oct 12</span>  <a href=\"http://denver.craigslist.org/zip/4125713189.html\">Free
-        Chest Freezer</a> </span> <span class=\"l2\">   <span class=\"pnr\"> <small>
-        (120th &amp; Sheridan)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
-        href=\"#\" class=\"maptag\" data-pid=\"4125713189\">map</a></span></span>
-        </span>  </span> </p> <p class=\"row\" data-latitude=\"39.8258952669444\"
-        data-longitude=\"-104.911322480226\" data-pid=\"4125622604\"> <a href=\"http://denver.craigslist.org/zip/4125622604.html\"
+        <p class=\"row\" data-pid=\"4125761478\"> <a href=\"http://denver.craigslist.org/zip/4125761478.html\"
+        class=\"i\" data-id=\"0:00P0P_4jpoRNHAwZh\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 12</span>  <a href=\"http://denver.craigslist.org/zip/4125761478.html\">Kenmore
+        Vacuum</a> </span> <span class=\"l2\">   <span class=\"pnr\"> <small> (Westminster)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  </span>
+        </p> <p class=\"row\" data-latitude=\"39.8258952669444\" data-longitude=\"-104.911322480226\"
+        data-pid=\"4125622604\"> <a href=\"http://denver.craigslist.org/zip/4125622604.html\"
         class=\"i\" data-id=\"0:00Z0Z_lPZFEQZUp4X\"></a> <span class=\"pl\"> <span
         class=\"star\"></span> <span class=\"date\">Oct 12</span>  <a href=\"http://denver.craigslist.org/zip/4125622604.html\">iRobot
         Roomba 500 parts/supplies</a> </span> <span class=\"l2\">   <span class=\"pnr\">
@@ -347,5 +345,241 @@ http_interactions:
         ></script>\n    \n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/postings.js?v=c741dc061da72c6ca6c36bf9b528a0ac\"
         defer async></script>\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Sat, 12 Oct 2013 21:01:01 GMT
+  recorded_at: Sat, 12 Oct 2013 21:19:48 GMT
+- request:
+    method: get
+    uri: http://boulder.craigslist.org/search/zip?query=vaccuum&searchType=A
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - close
+      Cache-Control:
+      - max-age=900, public
+      Last-Modified:
+      - Sat, 12 Oct 2013 21:19:49 GMT
+      Date:
+      - Sat, 12 Oct 2013 21:19:49 GMT
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '4515'
+      Content-Type:
+      - text/html; charset=utf-8
+      Set-Cookie:
+      - cl_b=eMqrBoQz4xGZsGwbCCGXQw7Tzg0;path=/;domain=.craigslist.org;expires=Fri,
+        01-Jan-2038 00:00:00 GMT
+      Server:
+      - Apache
+      Expires:
+      - Sat, 12 Oct 2013 21:34:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html class=\"nojs\"><head>\n\t<title>boulder free
+        stuff classifieds &quot;vaccuum&quot; - craigslist</title>\n\n\t<meta name=\"description\"
+        content=\"boulder free stuff classifieds &quot;vaccuum&quot; - craigslist\">\n\t<link
+        rel=\"alternate\" type=\"application/rss+xml\" href=\"http://boulder.craigslist.org/search/zip?query=vaccuum&amp;format=rss\"
+        title=\"RSS feed for craigslist | free stuff &quot;vaccuum&quot; in boulder
+        \">\n    <meta name=\"viewport\" content=\"initial-scale=1.0, user-scalable=1\">\n\t<link
+        type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/clnew.css?v=119e90371e3a2f27816a6df54b032ec1\">\n
+        \   <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=cb67f2e720fe8a2c7d83234590b2d1ed\">\n\t\n
+        \   \n\t\n\t\t<script type=\"text/javascript\"><!--\n\t\t\tvar currencySymbol
+        = \"$\";\nvar viewPostingText = \"view posting\";\nvar zoomToPosting = null;\nvar
+        showInfoText = \"show info\";\nvar moreInfoText = \"more info\";\nvar showImageText
+        = \"show images\";\nvar imageHost = \"http://images.craigslist.org\";\nvar
+        lessInfoText = \"less info\";\nvar showMapTabs = 1;\nvar areaCountry = \"US\";\nvar
+        areaID = \"319\";\nvar starHint = \"save this post in your favorites list\";\nvar
+        expFaves = \"\";\nvar pID = null;\nvar catAbb = null;\n\n\t\t--></script>\n\t\n\t<!--[if
+        lt IE 9]>\n<script type=\"text/javascript\" src=\"//www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda\"
+        ></script>\n<![endif]-->\n</head>\n\n<body class=\"toc  search\">\n<script
+        type=\"text/javascript\"><!--\n\tfunction C(k){return(document.cookie.match('(^|;
+        )'+k+'=([^;]*)')||0)[2]}\n\tvar pagetype, pagemode;\n\t(function(){\n\t\tvar
+        h = document.documentElement;\n\t\th.className = h.className.replace('nojs',
+        '');\n\t\tvar b = document.body;\n\t\tvar bodyClassList = b.className.split(/\\s+/);;\n\t\tpagetype
+        = bodyClassList[0];\n\t\tvar fmt = C('cl_fmt');\n\t\tif (fmt) {\n\t\t\tpagemode
+        = fmt;\n\t\t\tbodyClassList.push(fmt);\n\t\t} else if (screen.width <= 480)
+        {\n\t\t\tpagemode = 'mobile';\n\t\t\tbodyClassList.push(pagemode);\n\t\t}\n\t\tvar
+        width = window.innerWidth || document.documentElement.clientWidth;\n\t\tif
+        (width > 1000) { bodyClassList.push('w1024'); }\n\t\tvar mode = C('cl_img');\n\t\tfor
+        (var i = 0, len = bodyClassList.length; i < len; i++){\n\t\t\tif (bodyClassList[i]
+        === 'map') { mode = undefined; }\n\t\t}\n\t\tif (mode) { bodyClassList.push(mode);
+        }\n\t\tb.className = bodyClassList.join(' ');\n\t}());\n--></script>\n\n\n\t<article
+        id=\"pagecontainer\">\n\n\t\t<header class=\"bchead\">\n\t<div class=\"contents
+        closed\">\n\t\t<div class=\"topright_box\">\n\t\t\t<div id=\"ef\">\n\t[ <a
+        href=\"http://www.craigslist.org/about/help/\">help</a> ] \n\t[ <a href=\"https://post.craigslist.org/c/bou?lang=en\">post</a>
+        ]\n</div>\n\n\t\t\t<div id=\"favorites\">\n    <a href=\"#\" class=\"favlink\"><span
+        class=\"n\">0</span> favorites</a>\n</div>\n\n\t\t</div>\n\t\t<div class=\"dropdown
+        down\">&or;</div>\n\t\t<div class=\"dropdown up\">&and;</div>\n\t\t<div class=\"leftside\">\n
+        \           <button class=\"back\">&lt;</button>\n            <div class=\"breadbox\">\n
+        \               <div class=\"breadcrumbs\">\n                    <span class=\"crumb\"><a
+        href=\"//www.craigslist.org/about/sites\">CL</a></span>\n                    <span
+        class=\"crumb\"><a href=\"/\">boulder</a></span>    <span class=\"crumb\"><a
+        href=\"/sss/\">for sale / wanted</a></span> <span class=\"crumb\"><a href=\"/zip/\">free
+        stuff</a></span>\n                </div>\n            </div>\n\t\t</div>\n
+        \       \n\t</div>\n</header>\n\n\n\t\t<blockquote>\n\n\t\t<script type=\"text/javascript\"><!--\n\t\t\tvar
+        catAbb = \"zip\";\n\n\t\t--></script>\n\t\n<form action=\"/search/zip\" id=\"searchform\"
+        method=\"get\" accept-charset=\"utf-8\">\n\n    <fieldset id=\"searchfieldset\">\n
+        \   <legend id=\"searchlegend\"><select id=\"catAbb\" name=\"catAbb\">\n\n
+        \               <option value=\"ccc\">all community\n\n                <option
+        value=\"eee\">all event\n\n                <option value=\"sss\">all for sale
+        / wanted\n<option disabled value=\"\">--\n<option value=\"ata\"> antiques\n<option
+        data-acat=\"ata\" value=\"atd\"> antiques - by dealer\n<option data-acat=\"ata\"
+        value=\"atq\"> antiques - by owner\n<option value=\"ppa\"> appliances\n<option
+        data-acat=\"ppa\" value=\"ppd\"> appliances - by dealer\n<option data-acat=\"ppa\"
+        value=\"app\"> appliances - by owner\n<option value=\"ara\"> arts+crafts\n<option
+        data-acat=\"ara\" value=\"ard\"> arts &amp; crafts - by dealer\n<option data-acat=\"ara\"
+        value=\"art\"> arts &amp; crafts - by owner\n<option value=\"sna\"> atvs/utvs/snowmobiles\n<option
+        data-acat=\"sna\" value=\"snd\"> atvs, utvs, snowmobiles - by dea\n<option
+        data-acat=\"sna\" value=\"sno\"> atvs, utvs, snowmobiles - by own\n<option
+        value=\"pta\"> auto parts\n<option data-acat=\"pta\" value=\"ptd\"> auto parts
+        - by dealer\n<option data-acat=\"pta\" value=\"pts\"> auto parts - by owner\n<option
+        value=\"baa\"> baby+kids\n<option data-acat=\"baa\" value=\"bad\"> baby &amp;
+        kid stuff - by dealer\n<option data-acat=\"baa\" value=\"bab\"> baby &amp;
+        kid stuff - by owner\n<option value=\"bar\"> barter\n<option value=\"haa\">
+        beauty+hlth\n<option data-acat=\"bia\" value=\"bid\"> bicycles - by dealer\n<option
+        data-acat=\"bia\" value=\"bik\"> bicycles - by owner\n<option value=\"bia\">
+        bikes\n<option value=\"boo\"> boats\n<option data-acat=\"boo\" value=\"bod\">
+        boats - by dealer\n<option data-acat=\"boo\" value=\"boa\"> boats - by owner\n<option
+        value=\"bka\"> books\n<option data-acat=\"bka\" value=\"bkd\"> books &amp;
+        magazines - by dealer\n<option data-acat=\"bka\" value=\"bks\"> books &amp;
+        magazines - by owner\n<option value=\"bfa\"> business\n<option data-acat=\"bfa\"
+        value=\"bfd\"> business/commercial - by dealer\n<option data-acat=\"bfa\"
+        value=\"bfs\"> business/commercial - by owner\n<option value=\"cta\"> cars+trucks\n<option
+        data-acat=\"cta\" value=\"ctd\"> cars &amp; trucks - by dealer\n<option data-acat=\"cta\"
+        value=\"cto\"> cars &amp; trucks - by owner\n<option data-acat=\"ema\" value=\"emq\">
+        cds / dvds / vhs - by dealer\n<option data-acat=\"ema\" value=\"emd\"> cds
+        / dvds / vhs - by owner\n<option value=\"ema\"> cds/dvd/vhs\n<option value=\"moa\">
+        cell phones\n<option data-acat=\"moa\" value=\"mod\"> cell phones - by dealer\n<option
+        data-acat=\"moa\" value=\"mob\"> cell phones - by owner\n<option value=\"cla\">
+        clothes+acc\n<option data-acat=\"cla\" value=\"cld\"> clothing &amp; accessories
+        - by deal\n<option data-acat=\"cla\" value=\"clo\"> clothing &amp; accessories
+        - by owne\n<option value=\"cba\"> collectibles\n<option data-acat=\"cba\"
+        value=\"cbd\"> collectibles - by dealer\n<option data-acat=\"cba\" value=\"clt\">
+        collectibles - by owner\n<option value=\"sya\"> computers\n<option data-acat=\"sya\"
+        value=\"syd\"> computers - by dealer\n<option data-acat=\"sya\" value=\"sys\">
+        computers - by owner\n<option value=\"ela\"> electronics\n<option data-acat=\"ela\"
+        value=\"eld\"> electronics - by dealer\n<option data-acat=\"ela\" value=\"ele\">
+        electronics - by owner\n<option value=\"gra\"> farm+garden\n<option data-acat=\"gra\"
+        value=\"grq\"> farm &amp; garden - by dealer\n<option data-acat=\"gra\" value=\"grd\">
+        farm &amp; garden - by owner\n<option data-acat=\"sss\" value=\"ssq\"> for
+        sale by dealer\n<option data-acat=\"sss\" value=\"sso\"> for sale by owner\n<option
+        value=\"zip\" selected> free stuff\n<option value=\"fua\"> furniture\n<option
+        data-acat=\"fua\" value=\"fud\"> furniture - by dealer\n<option data-acat=\"fua\"
+        value=\"fuo\"> furniture - by owner\n<option value=\"gms\"> garage sales\n<option
+        value=\"foa\"> general\n<option data-acat=\"foa\" value=\"fod\"> general for
+        sale - by dealer\n<option data-acat=\"foa\" value=\"for\"> general for sale
+        - by owner\n<option data-acat=\"haa\" value=\"had\"> health and beauty - by
+        dealer\n<option data-acat=\"haa\" value=\"hab\"> health and beauty - by owner\n<option
+        value=\"hva\"> heavy equipment\n<option data-acat=\"hva\" value=\"hvd\"> heavy
+        equipment - by dealer\n<option data-acat=\"hva\" value=\"hvo\"> heavy equipment
+        - by owner\n<option value=\"hsa\"> household\n<option data-acat=\"hsa\" value=\"hsd\">
+        household items - by dealer\n<option data-acat=\"hsa\" value=\"hsh\"> household
+        items - by owner\n<option value=\"jwa\"> jewelry\n<option data-acat=\"jwa\"
+        value=\"jwd\"> jewelry - by dealer\n<option data-acat=\"jwa\" value=\"jwl\">
+        jewelry - by owner\n<option value=\"maa\"> materials\n<option data-acat=\"maa\"
+        value=\"mad\"> materials - by dealer\n<option data-acat=\"maa\" value=\"mat\">
+        materials - by owner\n<option value=\"mpa\"> motorcycle parts &amp; acc\n<option
+        data-acat=\"mpa\" value=\"mpd\"> motorcycle parts/acc - by dealer\n<option
+        data-acat=\"mpa\" value=\"mpo\"> motorcycle parts/acc - by owner\n<option
+        value=\"mca\"> motorcycles\n<option data-acat=\"mca\" value=\"mcd\"> motorcycles/scooters
+        - by dealer\n<option data-acat=\"mca\" value=\"mcy\"> motorcycles/scooters
+        - by owner\n<option data-acat=\"msa\" value=\"msd\"> musical instruments -
+        by dealer\n<option data-acat=\"msa\" value=\"msg\"> musical instruments -
+        by owner\n<option value=\"msa\"> music instr\n<option value=\"pha\"> photo+video\n<option
+        data-acat=\"pha\" value=\"phd\"> photo/video - by dealer\n<option data-acat=\"pha\"
+        value=\"pho\"> photo/video - by owner\n<option value=\"rva\"> recreational
+        vehicles\n<option data-acat=\"rva\" value=\"rvd\"> rvs - by dealer\n<option
+        data-acat=\"rva\" value=\"rvs\"> rvs - by owner\n<option value=\"sga\"> sporting\n<option
+        data-acat=\"sga\" value=\"sgd\"> sporting goods - by dealer\n<option data-acat=\"sga\"
+        value=\"spo\"> sporting goods - by owner\n<option value=\"tia\"> tickets\n<option
+        data-acat=\"tia\" value=\"tid\"> tickets - by dealer\n<option data-acat=\"tia\"
+        value=\"tix\"> tickets - by owner\n<option value=\"tla\"> tools\n<option data-acat=\"tla\"
+        value=\"tld\"> tools - by dealer\n<option data-acat=\"tla\" value=\"tls\">
+        tools - by owner\n<option value=\"taa\"> toys+games\n<option data-acat=\"taa\"
+        value=\"tad\"> toys &amp; games - by dealer\n<option data-acat=\"taa\" value=\"tag\">
+        toys &amp; games - by owner\n<option value=\"vga\"> video gaming\n<option
+        data-acat=\"vga\" value=\"vgd\"> video gaming - by dealer\n<option data-acat=\"vga\"
+        value=\"vgm\"> video gaming - by owner\n<option value=\"waa\"> wanted\n<option
+        data-acat=\"waa\" value=\"wad\"> wanted - by dealer\n<option data-acat=\"waa\"
+        value=\"wan\"> wanted - by owner\n<option disabled value=\"\">--\n\n                <option
+        value=\"ggg\">all gigs\n\n                <option value=\"hhh\">all housing\n\n
+        \               <option value=\"jjj\">all jobs\n\n                <option
+        value=\"ppp\">all personals\n\n                <option value=\"res\">all resume\n\n
+        \               <option value=\"bbb\">all services offered\n</select><span
+        class=\"posterpicker\"></span></legend>\n\t<div id=\"searchtable\">\n\t\t<span
+        class=\"searchgroup\">\n\t\t\t<input id=\"query\" name=\"query\" size=\"24\"
+        value=\"vaccuum\" autocorrect=\"off\" autocapitalize=\"off\">\n\t\t\t<input
+        id=\"searchbtn\" type=\"submit\" value=\"search\">\n\t\t</span>\n\t\t<span
+        class=\"searchgroup\">\n\t\t\t<div id=\"searchchecks\">\n\t\t\t\t<label id=\"usemapcheck\"
+        style=\"display:none;\">\n\t\t\t\t\t<input type=\"checkbox\" name=\"useMap\"
+        value=\"1\">show map\n\t\t\t\t</label>\n\t\t\t\t<input id=\"zoomtoposting\"
+        type=\"hidden\" name=\"zoomToPosting\" value=\"\">\n\t\t\t</div>\n\t\t</span>\n\n
+        \       <span class=\"searchgroup\">\n\tprice:\n\t<input name=\"minAsk\" class=\"min\"
+        size=\"5\" value=\"\">\n\t<input name=\"maxAsk\" class=\"max\" size=\"5\"
+        value=\"\">\n</span>\n\n\n\t\t\n\n\t\t\n\t\t<span class=\"searchgroup\">\n\t\t\t<label>\n\t\t\t\t<input
+        type=\"checkbox\" name=\"hasPic\" value=\"1\" ><span class=\"haspic\">pic</span>\n\t\t\t</label>\n\t\t\t<label>\n\t\t\t\t\t<input
+        type=\"checkbox\" name=\"srchType\" value=\"T\"\n\t\t\t\t\ttitle=\"search
+        only posting titles\">title\n\t\t\t</label>\n\t\t</span>\n\t</div>\n    </fieldset>\n</form>\n</blockquote>\n\n\n\t\t<section
+        class=\"body\">\n\t\t\t\n\t\t\t\n\t\t\t\n\n\t\t\t<div class=\"sortby\"><b>sort:
+        </b> <strong>most recent</strong><b> |</b> <a href=\"/search/zip?sort=rel&amp;query=vaccuum\">best
+        match</a><b> |</b> <a href=\"/search/zip?sort=priceasc&amp;query=vaccuum\">low
+        price</a><b> |</b> <a href=\"/search/zip?sort=pricedsc&amp;query=vaccuum\">high
+        price</a></div>\n\n\t\t\t<blockquote class=\"modebtns\">\n\t<button id=\"listview\">list
+        view</button>\n\t<button id=\"picview\">pic view</button>\n\t<button id=\"gridview\">grid
+        view</button>\n\t<button id=\"mapview\">map view</button>\n</blockquote>\n\n\n\t\t\t<blockquote
+        id=\"toc_rows\">\n\n\t\t\t<div class=\"resulttotal\">found <span>1</span>
+        posting</div>\n\t\t\t<h4 class=\"ban\">Zero LOCAL results found. Here are
+        some from NEARBY areas...</h4> <p class=\"row\" data-pid=\"4038155885\"> <a
+        href=\"http://fortcollins.craigslist.org/zip/4038155885.html\" class=\"i\"
+        data-id=\"0:00H0H_2xo3ZRugHaG\"></a> <span class=\"pl\"> <span class=\"star\"></span>
+        <span class=\"date\">Aug 31</span>  <a href=\"http://fortcollins.craigslist.org/zip/4038155885.html\">Free
+        stuff</a> </span> <span class=\"l2\">   <span class=\"pnr\"> <small> (Loveland)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  </span>
+        </p><h4 class=\"ban resultshdr\">\n\n\t\t<span class=\"nplink first\" title=\"first
+        page\">\n\t\t\t\n\t\t\t\t|&lt;<span class=\"nplabel\">first</span>\n\t\t\t\n\t\t</span>\n\t\t<div
+        class=\"npcontrols\">\n\t\t\t<div class=\"npcontrolcenter\">\n\t\t\t\t<span
+        class=\"nplink prev\" title=\"previous page\">\n\t\t\t\t\t\n\t\t\t\t\t\t&lt;<span
+        class=\"nplabel\">prev</span>\n\t\t\t\t\t\n\t\t\t\t</span>\n\t\t\t\t<span
+        class=\"nplink next\" title=\"next page\">\n\t\t\t\t\t\n\t\t\t\t\t\t<span
+        class=\"nplabel\">next</span>&gt;\n\t\t\t\t\t\n\t\t\t\t</span>\n\t\t\t\t<span
+        class=\"pagenum\">1 - 1</span>\n\t\t\t</div>\n\t\t</div>\n\t\n</h4>\n\n\n\t\t\t\n\n\t\t\t<div
+        id=\"floater\">\n\t\t\t\t<img class=\"loading\" src=\"http://www.craigslist.org/images/map/animated-spinny.gif\">\n\t\t\t\t<img
+        class=\"payload\" src=\"http://www.craigslist.org/images/map/animated-spinny.gif\">\n\t\t\t</div>\n\n\t\t\t</blockquote>\n\t\t</section>\n\t\t\n\t\t<ul
+        id=\"fmtsel\">\n\t<li><b>FORMAT:</b></li>\n\t<li class=\"fsel\" data-mode=\"mobile\">mobile</li>\n\t<li
+        class=\"fsel\" data-mode=\"regular\">standard</li>\n</ul>\n\n<footer>\n\t\n\t\t\t<span
+        class=\"rss\">\n\t\t\t\t<a class=\"l\" href=\"http://boulder.craigslist.org/search/zip?query=vaccuum&amp;format=rss\">RSS</a>\n\t\t\t\t<a
+        href=\"http://www.craigslist.org/about/rss\">(?)</a><br>\n\t\t\t</span>\n\t\t\t\n\t<ul
+        class=\"clfooter\">\n\t\t<li>&copy; 2013 craigslist</li>\n\t\t<li><a href=\"//www.craigslist.org/about/help/\">help</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/terms.of.use\">terms</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/privacy.policy\">privacy</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/scams\">safety</a></li>\n\t\t<li><a href=\"https://forums.craigslist.org/?forumID=8\">feedback</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/\">about</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/craigslist_is_hiring\"
+        style=\"color: #0b0\">cl jobs</a></li>\n\t</ul>\n</footer>\n\n\t</article>\n\t<!--[if
+        lte IE 7]>\n\t\t<script type=\"text/javascript\" src=\"//www.craigslist.org/js/json2.js?v=c1da07f5953739dffc17fd1db3c5313c\"
+        ></script>\n\t<![endif]-->\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/jquery-ui-1.9.2.custom.js?v=32c38510c8db71f2fbef00da891aeaac\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/formats.js?v=018a6e50bcebb9e2de7d378d2a3c3d93\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/toChecklist.js?v=b163a7aa23a6dad79076f92e56c622f7\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/jquery.form-defaults.js?v=421648d06bad2f29bbfc2f66c5205aeb\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/cookie.js?v=0cce2559d540be0bb52211e4105921c4\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/localstorage.js?v=0dcff58ebaf4af52c0b82d96a5fd7000\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/tocs.js?v=7a49896f2563731c8692040105dac1bd\"
+        ></script>\n\t<script type=\"text/javascript\" src=\"//www.craigslist.org/js/favorites.js?v=c2dbff2669a8f8bcc8654905d51e3c11\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/search-suggestions.js?v=0a8fbde1d8aaeb2f28317aadcc11f14d\"
+        ></script>\n    \n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/postings.js?v=c741dc061da72c6ca6c36bf9b528a0ac\"
+        defer async></script>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sat, 12 Oct 2013 21:19:49 GMT
 recorded_with: VCR 2.5.0

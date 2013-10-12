@@ -3,10 +3,12 @@ require 'craigslist'
 module IJustWantAFreeVacuumInTheBoulderArea
   class Fetcher
 
-    VACUUM_QUERIES = ['vacuum']
+    VACUUM_QUERIES = %w|vacuum vaccuum|
 
     def fetch
-      Craigslist.city(:boulder).free.query('vacuum').fetch
+      VACUUM_QUERIES.collect { |query|
+        Craigslist.city(:boulder).free.query(query).fetch
+      }.flatten
     end
   end
 end
