@@ -3,4 +3,4 @@
 $:.unshift(File.dirname(__FILE__) + '/../lib')
 require 'i_just_want_a_free_vacuum_in_the_boulder_area'
 
-puts IJustWantAFreeVacuumInTheBoulderArea::Fetcher.new.fetch
+IJustWantAFreeVacuumInTheBoulderArea::Fetcher.new.fetch_and_email

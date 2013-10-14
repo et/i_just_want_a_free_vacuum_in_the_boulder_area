@@ -19,10 +19,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "email_spec"
+  spec.add_development_dependency "minitest-matchers"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "vcr", '~> 2.6.0'
   spec.add_development_dependency "webmock", '~> 1.14.0'
 
   spec.add_dependency 'craigslist'
+  spec.add_dependency 'pony'
   spec.add_dependency 'whenever'
 end

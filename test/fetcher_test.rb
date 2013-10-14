@@ -18,4 +18,12 @@ class FetcherTest < MiniTest::Unit::TestCase
     query = @fetcher.fetch.first
     refute_nil query['href']
   end
+
+  def test_hrefs_for
+    results = [{ foo: 'bar', href: 'google.com' }, { baz: 'buz', href: 'yahoo.com' }]
+
+    hrefs = @fetcher.hrefs_for results
+
+    assert_equal hrefs, ['google.com', 'yahoo.com']
+  end
 end
